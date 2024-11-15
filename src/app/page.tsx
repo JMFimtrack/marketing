@@ -17,7 +17,7 @@ export default function Home() {
           QR Opiniones
         </h2>
         <p>Este QR envia a las opiniones de fimtrack en google.</p>
-        <Image 
+        <Image unoptimized
           src='/qr.png'
           alt='Margeting QR Opinion'
           width={1000}
@@ -29,7 +29,7 @@ export default function Home() {
         <a 
         href='https://www.google.com/search?q=fimtrack&oq=fimtrack&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyFggBEC4YgwEYrwEYxwEYsQMYgAQYjgUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgATSAQkzMjI4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x85d1f888f2e13173:0xfa82a0e096439d8e,3,,,,'
         className={`
-          m-4 p-4 
+          m-8 p-4 
           rounded-lg text-white bg-sky-600
           shadow-lg
         `}>
