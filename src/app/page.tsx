@@ -17,8 +17,8 @@ export default function Home() {
           QR Opiniones
         </h2>
         <p>Este QR envia a las opiniones de fimtrack en google.</p>
-        <image 
-          src='/qr.png'
+        <Image 
+          src='./qr.png'
           alt='Margeting QR Opinion'
           width={1000}
           height={1000}
