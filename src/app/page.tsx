@@ -23,10 +23,18 @@ export default function Home() {
           width={1000}
           height={1000}
           className={`
-            w-96 md:w-96 lg:w-192
-            shadow-xl
+            m-8 w-96 md:w-96 lg:w-192
           `}
         />
+        <a 
+        href='https://www.google.com/search?q=fimtrack&oq=fimtrack&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyFggBEC4YgwEYrwEYxwEYsQMYgAQYjgUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgATSAQkzMjI4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x85d1f888f2e13173:0xfa82a0e096439d8e,3,,,,'
+        className={`
+          m-4 p-4 
+          rounded-lg text-white bg-sky-600
+          shadow-lg
+        `}>
+        Click aquí, para ir a opiniones.
+        </a>
       </article>
     </>
   )
